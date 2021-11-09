@@ -1,6 +1,6 @@
 # What is FlexibleStepRangeSlider
 - We use RangeSlider in Material Components for range filter as below
-<br><img src="https://github.com/PRNDcompany/FlexibleStepRangeSlider/blob/805411fb6709ed62fd6e379a8b1a141edc77a865/arts/range_slider.png" width=300/>
+<br><img src="https://github.com/PRNDcompany/FlexibleStepRangeSlider/blob/main/arts/range_slider.png" width=300/>
 - But it has fixed step size so we have to render even if input values are dynamic gap. 
 - `FlexibleStepRangeSlider` has flexible step based on RangeSlider with Material Component
 
@@ -8,11 +8,12 @@
 ## Demo
 |Sample|Filter|
 |:-:|:-:|
-|<img src="https://github.com/PRNDcompany/FlexibleStepRangeSlider/blob/805411fb6709ed62fd6e379a8b1a141edc77a865/arts/sample_2.gif" width=300/>|<img src="https://github.com/PRNDcompany/FlexibleStepRangeSlider/blob/805411fb6709ed62fd6e379a8b1a141edc77a865/arts/sample_1.gif" width=300/>
+|<img src="https://github.com/PRNDcompany/FlexibleStepRangeSlider/blob/main/arts/sample_2.gif" width=300/>|<img src="https://github.com/PRNDcompany/FlexibleStepRangeSlider/blob/main/arts/sample_1.gif" width=300/>
 
 <br><br><br><br>
 ## Setup
 ### Gradle
+[![Maven Central](https://img.shields.io/maven-central/v/kr.co.prnd/flexiblestep-rangeslider.svg?label=Maven%20Central)](https://search.maven.org/search?q=a:flexiblestep-rangeslider)
 ```gradle
 dependencies {
     implementation 'kr.co.prnd:flexiblestep-rangeslider:x.x.x'
