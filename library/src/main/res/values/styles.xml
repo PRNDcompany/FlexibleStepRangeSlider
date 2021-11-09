@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.MaterialComponents.FlexibleStepRangeSlider" parent="">
+        <item name="thumbColorActive">@color/material_slider_thumb_color</item>
+        <item name="thumbColorInactive">@color/material_slider_thumb_color</item>
+        <item name="thumbElevationActive">@dimen/mtrl_slider_thumb_elevation</item>
+        <item name="thumbElevationInactive">@dimen/mtrl_slider_thumb_elevation</item>
+        <item name="thumbRadiusActive">@dimen/mtrl_slider_thumb_radius</item>
+        <item name="thumbRadiusInactive">@dimen/mtrl_slider_thumb_radius</item>
+        <item name="trackHeight">@dimen/mtrl_slider_track_height</item>
+    </style>
+
+</resources>

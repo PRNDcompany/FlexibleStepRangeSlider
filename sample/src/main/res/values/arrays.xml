@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="initial_slider_values_1">
+        <item>0</item>
+        <item>100</item>
+    </array>
+
+    <array name="initial_slider_values_2">
+        <item>0</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>40000</item>
+        <item>50000</item>
+        <item>60000</item>
+        <item>80000</item>
+        <item>100000</item>
+        <item>150000</item>
+        <item>200000</item>
+    </array>
+</resources>

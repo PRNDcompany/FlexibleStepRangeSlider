@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:paddingVertical="20dp"
+    tools:context=".MainActivity">
+
+    <kr.co.prnd.slider.FlexibleStepRangeSlider
+        android:id="@+id/slider_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:valueFrom="60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:thumbColorActive="#FFFFFF"
+        app:thumbColorInactive="#FFFFFF"
+        app:thumbElevationActive="2dp"
+        app:thumbElevationInactive="4dp"
+        app:thumbRadiusActive="16dp"
+        app:thumbRadiusInactive="12dp"
+        app:thumbStrokeColorActive="?attr/colorPrimary"
+        app:thumbStrokeColorInactive="#14272E40"
+        app:thumbStrokeWidthActive="1dp"
+        app:thumbStrokeWidthInactive="1dp"
+        app:tickColorActive="?attr/colorOnSurface"
+        app:tickColorInactive="?attr/colorPrimary"
+        app:tickVisible="false"
+        app:trackColorActive="?attr/colorPrimary"
+        app:trackColorInactive="?attr/colorOnSurface"
+        app:trackHeight="4dp"
+        app:values="@array/initial_slider_values_1" />
+
+    <TextView
+        android:id="@+id/text_view_1"
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="[0 ~ 1000]" />
+
+    <kr.co.prnd.slider.FlexibleStepRangeSlider
+        android:id="@+id/slider_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:valueFrom="120000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:thumbColorActive="#FFFFFF"
+        app:thumbColorInactive="#FFFFFF"
+        app:thumbElevationActive="2dp"
+        app:thumbElevationInactive="4dp"
+        app:thumbRadiusActive="14dp"
+        app:thumbRadiusInactive="12dp"
+        app:thumbStrokeColorActive="@android:color/holo_blue_dark"
+        app:thumbStrokeColorInactive="#14272E40"
+        app:thumbStrokeWidthActive="1dp"
+        app:thumbStrokeWidthInactive="1dp"
+        app:tickColorActive="?attr/colorOnSurface"
+        app:tickColorInactive="?attr/colorPrimary"
+        app:tickVisible="true"
+        app:trackColorActive="@android:color/holo_blue_light"
+        app:trackColorInactive="?attr/colorOnSurface"
+        app:trackHeight="4dp"
+        app:values="@array/initial_slider_values_2" />
+
+    <TextView
+        android:id="@+id/text_view_2"
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="[0 ~ 200000]" />
+
+
+</LinearLayout>

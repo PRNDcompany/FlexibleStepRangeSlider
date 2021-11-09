@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlexibleStepRangeSlider">
+        <attr name="android:valueFrom" />
+        <attr name="android:valueTo" />
+        <attr name="android:enabled" />
+        <attr name="trackHeight" />
+        <attr name="trackColorActive" />
+        <attr name="trackColorInactive" />
+        <attr name="thumbColorActive" format="color" />
+        <attr name="thumbRadiusActive" format="dimension" />
+        <attr name="thumbElevationActive" format="dimension" />
+        <attr name="thumbStrokeColorActive" format="color" />
+        <attr name="thumbStrokeWidthActive" format="dimension" />
+        <attr name="thumbColorInactive" format="color" />
+        <attr name="thumbRadiusInactive" format="dimension" />
+        <attr name="thumbElevationInactive" format="dimension" />
+        <attr name="thumbStrokeColorInactive" format="color" />
+        <attr name="thumbStrokeWidthInactive" format="dimension" />
+        <attr name="tickColorActive" />
+        <attr name="tickColorInactive" />
+        <attr name="tickVisible" />
+        <attr name="values" />
+    </declare-styleable>
+
+</resources>
