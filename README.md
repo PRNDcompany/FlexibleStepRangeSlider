@@ -57,6 +57,22 @@ dependencies {
 - `setValues()`: initate range slider. (optional) `ValueFrom` `valueTo` parameters indicate start position.
 - `OnValueChangeListener` notify registered lisetner when value changed.
 ```kotlin
+// smooth slider
+slider.setValues(
+    values = listOf(0f, 100f), 
+    valueFrom = initailValueFrom, 
+    valueTo = initialValueTo
+)
+// flexible slider
+slider.setValues(
+    valuse = listOf(0f, 10f, 20f, 30f, 50f, 100f, 150f, 200f),
+    valueFrom = initialValueFrom,
+    valueTo = initialValueTo
+)
+
+slider.valueFrom = actual value from range
+slider.valueTo = actual value from range
+
 slider.addOnValueChangeListener { from, to state -> 
     when (state) {
         // Called when dragging to thumb
