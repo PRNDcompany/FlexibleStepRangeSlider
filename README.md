@@ -70,8 +70,8 @@ slider.setValues(
     valueTo = initialValueTo
 )
 
-slider.valueFrom = actual value from range
-slider.valueTo = actual value from range
+slider.valueFrom // actual value from range
+slider.valueTo // actual value from range
 
 slider.addOnValueChangeListener { from, to state -> 
     when (state) {
